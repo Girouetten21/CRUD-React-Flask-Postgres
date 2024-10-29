@@ -1,0 +1,243 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.title-2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.paragraph {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.md\:grid-cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-8 {
+  gap: 20px;
+}
+
+.space-y-6 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-2xl {
+  font-size: 24px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.space-y-4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.space-y-2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.edit-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #3e8e41;
+}
+
+.delete-button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #e60000;
+}
+
+.create-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-button:hover {
+  background-color: #3e8e41;
+}
+
+.th {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.td-button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
+.table {
+  width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+.search-bar {
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
+}
+
+.search-input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.cancel-button:hover {
+  background-color: #c0392b;
+}
